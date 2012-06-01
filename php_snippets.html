@@ -1,0 +1,28 @@
+<!--header -->
+
+	<!-- logo -->
+
+	<a href="<?php echo get_settings('home'); ?>/"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="<?php bloginfo('description'); ?>" /></a>
+
+
+	<!-- description -->
+	<?php bloginfo('description'); ?></p>
+
+	<!-- search -->
+	<?php get_search_form(); ?>
+
+	<!-- nav -->
+	with an id of access-
+	<?php wp_nav_menu(array('menu' => 'Main Nav Menu')); ?>
+
+
+<!-- home -->
+
+	<!--nivo slider -->
+
+	<?php if ( function_exists('show_nivo_slider') ) { show_nivo_slider(); } ?>
+
+
+<!-- edit this entry: taken from the single.php page-->
+
+<?php edit_post_link('Edit this entry','','.'); ?>

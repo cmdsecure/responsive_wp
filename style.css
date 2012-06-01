@@ -1,0 +1,15 @@
+/*   
+Theme Name: RGU Responsive WP
+Theme URI: http://comp.rgu.ac.uk
+Description: Responsive Custom Theme for the School of Computing 
+Author: Chris Young
+Author URI: http://comp.rgu.ac.uk
+Version: 4
+*/
+
+
+@import url("stylesheets/base.css");
+@import url("stylesheets/skeleton.css");
+@import url("stylesheets/layout.css");
+
+
